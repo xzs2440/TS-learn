@@ -97,11 +97,38 @@ tsc 文件名.ts
 
 ## 2-4 基础类型
 
-### 2-4-1 数据类型
-
 ​	原始数据类型 : Boolean Null Undefined Number BigInt String Symbol
 
 ​	Object数据类型  : Object
 
-### 2-4-2 Object数据类型
+## 2-5 any类型和联合类型
 
+## 2-6 Array与Tuple
+
+## 2-7 interface 接口
+
+- 对对象的形状（shape）进行描述
+- 对类（class）进行抽象
+- Duck Typing (鸭子类型)
+
+## 2-8 函数和类型推断
+
+## 2-9 类（Class）
+
+- 类(Class):定义了一切事物的抽象特点
+- 对象(Object):类的实例  -- 通过new来生成
+- 面向对象(OOP)三大特性:
+
+> ​		封装 -- 将数据的操作细节隐藏起来,只暴露对外的接口,外界通过访问这个接口获得访问的这个对象 
+>
+> ​		继承 -- 子类继承父类,子类除了拥有父类的特性外,还拥有更加具体的特性 
+>
+> ​		多态 -- 是由继承而产生的相关的不同的类,同一个方法可以有不同的响应
+
+```tsx
+//ts-node 
+//安装
+npm i -g ts-node
+//编译ts文件
+ts-node 文件名.ts
+```
